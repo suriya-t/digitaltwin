@@ -80,7 +80,7 @@ void loop()
         a=String(mapp);
       }
       Serial.println(a);
-      client.println(a);
+      client.print(a);
       prevValue = mapp;
     }
   }
