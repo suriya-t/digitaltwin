@@ -1,15 +1,14 @@
 # Server-Client Program
 # -----Server-------
-# for server optimising
 
 import socket
 import logging
 from sys import exit
 
-PORT = 8585
+PORT:int = 8585
 nob:int = 0
-isScreenConnected = False
-isBoardConnected = False
+isScreenConnected:bool = False
+isBoardConnected:bool = False
 screen = None
 board = None
 
